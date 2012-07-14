@@ -1,0 +1,850 @@
+TFlick Background
+v7
+r0
+t312568522.835987
+cCheck dependencies
+cProcessInfoPlistFile "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Info.plist" Flick_Background-Info.plist
+cCopyStringsFile "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/alex/Flick Background/English.lproj/MainMenu.xib"
+cCpResource "Static analysis/build/Flick Background.app/Contents/Resources/app-icon.icns" Resources/app-icon.icns
+cCpResource "Static analysis/build/Flick Background.app/Contents/Resources/black-background.jpg" Resources/black-background.jpg
+cCpResource "Static analysis/build/Flick Background.app/Contents/Resources/dsa_pub.pem" Resources/dsa_pub.pem
+cCpResource "Static analysis/build/Flick Background.app/Contents/Resources/icon-alt.png" Resources/icon-alt.png
+cCpResource "Static analysis/build/Flick Background.app/Contents/Resources/icon.png" Resources/icon.png
+cCpResource "Static analysis/build/Flick Background.app/Contents/Resources/no-internet.png" Resources/no-internet.png
+cCpResource "Static analysis/build/Flick Background.app/Contents/Resources/flickbackgroundagent.app" flickbackgroundagent.app
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/main.o" "/Users/alex/Flick Background/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/DesktopDelegate.o" "/Users/alex/Flick Background/Classes/DesktopDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/Flick_BackgroundAppDelegate.o" "/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/Rain.o" "/Users/alex/Flick Background/Classes/Rain.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/UpdateUI.o" "/Users/alex/Flick Background/Classes/UpdateUI.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/processIsRunning.o" "/Users/alex/Flick Background/processIsRunning.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/checkInternetConnection.o" "/Users/alex/Flick Background/checkInternetConnection.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/initalizeMenuItem.o" "/Users/alex/Flick Background/initalizeMenuItem.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cAnalyze "/Users/alex/Flick Background/main.m"
+cLd "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/MacOS/Flick Background" normal x86_64
+cAnalyze "/Users/alex/Flick Background/Classes/DesktopDelegate.m"
+cAnalyze "/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m"
+cAnalyze "/Users/alex/Flick Background/Classes/Rain.m"
+cAnalyze "/Users/alex/Flick Background/Classes/UpdateUI.m"
+cAnalyze "/Users/alex/Flick Background/processIsRunning.m"
+cAnalyze "/Users/alex/Flick Background/checkInternetConnection.m"
+cAnalyze "/Users/alex/Flick Background/initalizeMenuItem.m"
+cPBXCp "Static analysis/build/Flick Background.app/Contents/Frameworks/Sparkle.framework" Sparkle.framework
+cTouch "/Users/alex/Flick Background/Static analysis/build/Flick Background.app"
+cCodeSign "/Users/alex/Flick Background/Static analysis/build/Flick Background.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CE5A7F200000000000000EE
+t1290119154
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004BE54CE90000000000000124
+t1273318633
+s292
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+c000000004C46A49A0000000000001E29
+t1279698074
+s7721
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004C5342AD00000000000316AC
+t1280524973
+s202412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004BE291300000000000000957
+t1273139504
+s2391
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004C5342AD00000000000789DC
+t1280524973
+s494044
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/Flick Background/Classes/DesktopDelegate.h
+c000000004CE664AE00000000000001D4
+t1290167470
+s468
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/alex/Flick Background/Classes/DesktopDelegate.m
+c000000004CF130210000000000000CDB
+t1290874913
+s3291
+i"DesktopDelegate.h"
+i"Rain.h"
+i"Flick_BackgroundAppDelegate.h"
+
+N/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.h
+c000000004CF131A70000000000000ABE
+t1290875303
+s2750
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+i<SystemConfiguration/SCNetwork.h>
+i"UpdateUI.h"
+i"initalizeMenuItem.h"
+i"processIsRunning.h"
+i"checkInternetConnection.h"
+
+N/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m
+c000000004CF132090000000000002411
+t1290875401
+s9233
+i"Flick_BackgroundAppDelegate.h"
+
+N/Users/alex/Flick Background/Classes/Quicklook.h
+c000000004CD6A2040000000000000156
+t1289134596
+s342
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Flick Background/Classes/Quicklook.m
+c000000004CD6A12B0000000000000215
+t1289134379
+s533
+i"Quicklook.h"
+
+N/Users/alex/Flick Background/Classes/Rain.h
+c000000004CCD737F000000000000012C
+t1288532863
+s300
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Flick Background/Classes/Rain.m
+c000000004CE5179C0000000000000603
+t1290082204
+s1539
+i"Rain.h"
+
+N/Users/alex/Flick Background/Classes/UpdateUI.h
+c000000004CF1185B00000000000000F4
+t1290868827
+s244
+i"Flick_BackgroundAppDelegate.h"
+
+N/Users/alex/Flick Background/Classes/UpdateUI.m
+c000000004CF11DA000000000000004C9
+t1290870176
+s1225
+i"UpdateUI.h"
+
+N/Users/alex/Flick Background/English.lproj/InfoPlist.strings
+c000000004CE70462000000000000002D
+t1290208354
+s45
+
+N/Users/alex/Flick Background/English.lproj/MainMenu.xib
+c000000004CF11D790000000000035F8F
+t1290870137
+s221071
+
+N/Users/alex/Flick Background/Flick_Background_Prefix.pch
+c000000004CE7046200000000000000A3
+t1290208354
+s163
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Flick Background/Resources/app-icon.icns
+c000000004CD6B30A00000000000479DF
+t1289138954
+s293343
+
+N/Users/alex/Flick Background/Resources/black-background.jpg
+c000000004CE04956000000000001BBFF
+t1289767254
+s113663
+
+N/Users/alex/Flick Background/Resources/dsa_pub.pem
+c000000004CD293CC000000000000049A
+t1288868812
+s1178
+
+N/Users/alex/Flick Background/Resources/icon-alt.png
+c000000004CE711EF0000000000000497
+t1290211823
+s1175
+
+N/Users/alex/Flick Background/Resources/icon.png
+c000000004CE711EF000000000000049B
+t1290211823
+s1179
+
+N/Users/alex/Flick Background/Resources/no-internet.png
+c000000004CE7FC580000000000000189
+t1290271832
+s393
+
+N/Users/alex/Flick Background/Sparkle.framework
+c000000004CD2918F00000000000000CC
+t1288868239
+s204
+
+N/Users/alex/Flick Background/Sparkle.framework/Sparkle
+c0000000048CC863400000000000713C4
+t1221363252
+s463812
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app
+t1290875722
+s102
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Frameworks/Sparkle.framework
+t1290875722
+s204
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Info.plist
+t1290875716
+s1113
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/MacOS/Flick Background
+t1290875721
+s59496
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/PkgInfo
+t1290875716
+s8
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1290875716
+s92
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290875717
+s38751
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/app-icon.icns
+t1290875716
+s293343
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/black-background.jpg
+t1290875716
+s113663
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/dsa_pub.pem
+t1290875716
+s1178
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/flickbackgroundagent.app
+t1290875716
+s102
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/icon-alt.png
+t1290875716
+s1175
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/icon.png
+t1290875716
+s1179
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/no-internet.png
+t1290875716
+s393
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/DesktopDelegate.o
+t1290875718
+s25824
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Flick Background.LinkFileList
+c000000004CF13344000000000000038A
+t1290875716
+s906
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Flick_BackgroundAppDelegate.o
+t1290875719
+s89688
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Quicklook.o
+t1290868344
+s11576
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Rain.o
+t1290875719
+s9172
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/UpdateUI.o
+t1290875720
+s17900
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/checkInternetConnection.o
+t1290875721
+s15408
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/initalizeMenuItem.o
+t1290875721
+s20220
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/main.o
+t1290875718
+s2408
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/processIsRunning.o
+t1290875720
+s13088
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/DesktopDelegate.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/Flick_BackgroundAppDelegate.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/Quicklook.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/Rain.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/UpdateUI.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/checkInternetConnection.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/initalizeMenuItem.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/main.plist
+t2
+s0
+
+N/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/processIsRunning.plist
+t2
+s0
+
+N/Users/alex/Flick Background/checkInternetConnection.h
+c000000004CF12DEA0000000000000133
+t1290874346
+s307
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Flick Background/checkInternetConnection.m
+c000000004CF12E830000000000000271
+t1290874499
+s625
+i"checkInternetConnection.h"
+i"Flick_BackgroundAppDelegate.h"
+
+N/Users/alex/Flick Background/flickbackgroundagent.app
+c000000004CEE4B510000000000000066
+t1290685265
+s102
+
+N/Users/alex/Flick Background/initalizeMenuItem.h
+c000000004CF131000000000000000117
+t1290875136
+s279
+i<Cocoa/Cocoa.h>
+i"Flick_BackgroundAppDelegate.h"
+
+N/Users/alex/Flick Background/initalizeMenuItem.m
+c000000004CF1313F00000000000004EC
+t1290875199
+s1260
+i"initalizeMenuItem.h"
+i"Flick_BackgroundAppDelegate.h"
+
+N/Users/alex/Flick Background/main.m
+c000000004CE704620000000000000105
+t1290208354
+s261
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Flick Background/processIsRunning.h
+c000000004CF11FC9000000000000013D
+t1290870729
+s317
+i<Cocoa/Cocoa.h>
+i"Flick_BackgroundAppDelegate.h"
+
+N/Users/alex/Flick Background/processIsRunning.m
+c000000004CF11FD10000000000000365
+t1290870737
+s869
+i"processIsRunning.h"
+i"Flick_BackgroundAppDelegate.h"
+
+NFlick_Background-Info.plist
+c000000004CEE49910000000000000471
+t1290684817
+s1137
+
+CAnalyze "/Users/alex/Flick Background/Classes/DesktopDelegate.m"
+s312568521.749176
+e312568521.845580
+r1
+xAnalyze
+x/Users/alex/Flick Background/Classes/DesktopDelegate.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@62"Analyze /Users/alex/Flick Background/Classes/DesktopDelegate.m312568521#312568521#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#54"/Users/alex/Flick Background/Classes/DesktopDelegate.m4644398640#1710"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/Classes/DesktopDelegate.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/DesktopDelegate.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m"
+s312568521.845758
+e312568521.918495
+r1
+xAnalyze
+x/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@74"Analyze /Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568521#312568521#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m4644560496#1734"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/Flick_BackgroundAppDelegate.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/Classes/Quicklook.m"
+s312561146.037783
+e312561146.104843
+r1
+xAnalyze
+x/Users/alex/Flick Background/Classes/Quicklook.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@56"Analyze /Users/alex/Flick Background/Classes/Quicklook.m312561146#312561146#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#48"/Users/alex/Flick Background/Classes/Quicklook.m4371799200#1698"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/Classes/Quicklook.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/Quicklook.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/Classes/Rain.m"
+s312568521.918645
+e312568521.982981
+r1
+xAnalyze
+x/Users/alex/Flick Background/Classes/Rain.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@51"Analyze /Users/alex/Flick Background/Classes/Rain.m312568521#312568521#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#43"/Users/alex/Flick Background/Classes/Rain.m4644435808#1688"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/Classes/Rain.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/Rain.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/Classes/UpdateUI.m"
+s312568521.921365
+e312568521.996957
+r1
+xAnalyze
+x/Users/alex/Flick Background/Classes/UpdateUI.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@55"Analyze /Users/alex/Flick Background/Classes/UpdateUI.m312568521#312568521#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#47"/Users/alex/Flick Background/Classes/UpdateUI.m4639679104#1696"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/Classes/UpdateUI.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/UpdateUI.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/checkInternetConnection.m"
+s312568521.997098
+e312568522.067033
+r1
+xAnalyze
+x/Users/alex/Flick Background/checkInternetConnection.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@62"Analyze /Users/alex/Flick Background/checkInternetConnection.m312568521#312568522#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#54"/Users/alex/Flick Background/checkInternetConnection.m4640202912#1718"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/checkInternetConnection.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/checkInternetConnection.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/initalizeMenuItem.m"
+s312568522.058350
+e312568522.121450
+r1
+xAnalyze
+x/Users/alex/Flick Background/initalizeMenuItem.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@56"Analyze /Users/alex/Flick Background/initalizeMenuItem.m312568522#312568522#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#48"/Users/alex/Flick Background/initalizeMenuItem.m4639377968#1706"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/initalizeMenuItem.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/initalizeMenuItem.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/main.m"
+s312568521.562874
+e312568521.748891
+r1
+xAnalyze
+x/Users/alex/Flick Background/main.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@43"Analyze /Users/alex/Flick Background/main.m312568521#312568521#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#35"/Users/alex/Flick Background/main.m4640473696#1680"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/main.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/main.plist"0#
+
+CAnalyze "/Users/alex/Flick Background/processIsRunning.m"
+s312568521.983119
+e312568522.058205
+r1
+xAnalyze
+x/Users/alex/Flick Background/processIsRunning.m
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fanalyze"
+lSLF07#2@55"Analyze /Users/alex/Flick Background/processIsRunning.m312568521#312568522#0(148"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fanalyze"0(0#0#47"/Users/alex/Flick Background/processIsRunning.m4644458064#1704"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" --analyze "/Users/alex/Flick Background/processIsRunning.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/StaticAnalyzer/normal/x86_64/processIsRunning.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312568516#312568516#0(0"0(0#1#0"5284728303464574976#0"0#
+
+CCodeSign "/Users/alex/Flick Background/Static analysis/build/Flick Background.app"
+s312568522.253571
+e312568522.835899
+r1
+xCodeSign
+x/Users/alex/Flick Background/Static analysis/build/Flick Background.app
+lSLF07#2@53"CodeSign "Static analysis/build/Flick Background.app"312568522#312568522#0(0"0(0#0#71"/Users/alex/Flick Background/Static analysis/build/Flick Background.app4644594160#153"    cd "/Users/alex/Flick Background"    /usr/bin/codesign -f -s "Alex Yorke" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/DesktopDelegate.o" "/Users/alex/Flick Background/Classes/DesktopDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568517.135582
+e312568518.666225
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/DesktopDelegate.o
+x/Users/alex/Flick Background/Classes/DesktopDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@62"Compile /Users/alex/Flick Background/Classes/DesktopDelegate.m312568517#312568518#0(694"In file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.1(4@25"'stdarg.h' file not found312568518#532#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568518#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568518#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#54"/Users/alex/Flick Background/Classes/DesktopDelegate.m4640430096#1654"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/Classes/DesktopDelegate.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/DesktopDelegate.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/Flick_BackgroundAppDelegate.o" "/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568518.550996
+e312568519.677795
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/Flick_BackgroundAppDelegate.o
+x/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate applicationDidFinishLaunching:]':
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: 'Flick_BackgroundAppDelegate' may not respond to '-checkInternetConnection:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: (Messages without a matching method signature
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: will be assumed to return 'id' and accept
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: '...' as arguments.)
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:45: warning: 'Flick_BackgroundAppDelegate' may not respond to '-initMenuItem:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate changeBackground:]':
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:83: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:88: warning: 'Flick_BackgroundAppDelegate' may not respond to '-parseFlickrRSS:uninitalizedUrl:photoTitle:userTags:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:89: warning: 'Flick_BackgroundAppDelegate' may not respond to '-extracted_method:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:111: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate setDesktop:]':
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:156: warning: 'Flick_BackgroundAppDelegate' may not respond to '-flickToFile:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate downloadDidFinish:]':
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:211: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate download:didFailWithError:]':
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:250: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: At top level:
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookWindow' requires method '-quicklookWindow' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookWindow' requires the method 'setQuicklookWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookImage' requires method '-quicklookImage' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookImage' requires the method 'setQuicklookImage:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookButton' requires method '-quicklookButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookButton' requires the method 'setQuicklookButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: incomplete implementation of class 'Flick_BackgroundAppDelegate'
+o/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: method definition for '-quicklookImage:' not found
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@74"Compile /Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568518#312568519#0(4771"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate applicationDidFinishLaunching:]':/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: 'Flick_BackgroundAppDelegate' may not respond to '-checkInternetConnection:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: (Messages without a matching method signature/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: will be assumed to return 'id' and accept/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:43: warning: '...' as arguments.)/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:45: warning: 'Flick_BackgroundAppDelegate' may not respond to '-initMenuItem:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate changeBackground:]':/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:83: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:88: warning: 'Flick_BackgroundAppDelegate' may not respond to '-parseFlickrRSS:uninitalizedUrl:photoTitle:userTags:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:89: warning: 'Flick_BackgroundAppDelegate' may not respond to '-extracted_method:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:111: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate setDesktop:]':/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:156: warning: 'Flick_BackgroundAppDelegate' may not respond to '-flickToFile:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate downloadDidFinish:]':/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:211: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: In function '-[Flick_BackgroundAppDelegate download:didFailWithError:]':/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:250: warning: 'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m: At top level:/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookWindow' requires method '-quicklookWindow' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookWindow' requires the method 'setQuicklookWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookImage' requires method '-quicklookImage' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookImage' requires the method 'setQuicklookImage:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookButton' requires method '-quicklookButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: property 'quicklookButton' requires the method 'setQuicklookButton:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: incomplete implementation of class 'Flick_BackgroundAppDelegate'/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m:289: warning: method definition for '-quicklookImage:' not foundIn file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.20(22@76"'Flick_BackgroundAppDelegate' may not respond to '-checkInternetConnection:'312568519#145#157#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#43#0#43#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312568519#302#126#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#43#0#43#0#0"0(22@65"'Flick_BackgroundAppDelegate' may not respond to '-initMenuItem:'312568519#651#146#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#45#0#45#0#26"'*' may not respond to '*'0(22@61"'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'312568519#929#142#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#83#0#83#0#26"'*' may not respond to '*'0(22@103"'Flick_BackgroundAppDelegate' may not respond to '-parseFlickrRSS:uninitalizedUrl:photoTitle:userTags:'312568519#1071#184#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#88#0#88#0#26"'*' may not respond to '*'0(22@69"'Flick_BackgroundAppDelegate' may not respond to '-extracted_method:'312568519#1255#150#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#89#0#89#0#26"'*' may not respond to '*'0(22@61"'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'312568519#1405#143#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#111#0#111#0#26"'*' may not respond to '*'0(22@64"'Flick_BackgroundAppDelegate' may not respond to '-flickToFile:'312568519#1674#146#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#156#0#156#0#26"'*' may not respond to '*'0(22@61"'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'312568519#1953#143#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#211#0#211#0#26"'*' may not respond to '*'0(22@61"'Flick_BackgroundAppDelegate' may not respond to '-updateUI:'312568519#2237#143#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#250#0#250#0#26"'*' may not respond to '*'0(23@13"At top level:312568519#2380#82#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#0#0#0#0#0"0(22@138"Property 'quicklookWindow' requires method '-quicklookWindow' to be defined - use @synthesize, @dynamic or provide a method implementation312568519#2462#220#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#0"0(22@145"Property 'quicklookWindow' requires the method 'setQuicklookWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation312568519#2682#227#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#0"0(22@136"Property 'quicklookImage' requires method '-quicklookImage' to be defined - use @synthesize, @dynamic or provide a method implementation312568519#2909#218#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#0"0(22@143"Property 'quicklookImage' requires the method 'setQuicklookImage:' to be defined - use @synthesize, @dynamic or provide a method implementation312568519#3127#225#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#0"0(22@138"Property 'quicklookButton' requires method '-quicklookButton' to be defined - use @synthesize, @dynamic or provide a method implementation312568519#3352#220#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#0"0(22@145"Property 'quicklookButton' requires the method 'setQuicklookButton:' to be defined - use @synthesize, @dynamic or provide a method implementation312568519#3572#227#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#0"0(22@64"Incomplete implementation of class 'Flick_BackgroundAppDelegate'312568519#3799#146#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-quicklookImage:' not found312568519#3945#132#0(6@66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m312568201#289#0#289#0#35"method definition for '*' not found0(4@25"'stdarg.h' file not found312568519#4609#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568519#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568519#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#66"/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m4639678768#1678"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/Classes/Flick_BackgroundAppDelegate.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Flick_BackgroundAppDelegate.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/Quicklook.o" "/Users/alex/Flick Background/Classes/Quicklook.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312561144.136974
+e312561145.146527
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/Quicklook.o
+x/Users/alex/Flick Background/Classes/Quicklook.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@56"Compile /Users/alex/Flick Background/Classes/Quicklook.m312561144#312561145#0(694"In file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.1(4@25"'stdarg.h' file not found312561144#532#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312561144#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312561144#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#48"/Users/alex/Flick Background/Classes/Quicklook.m4642674000#1642"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/Classes/Quicklook.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Quicklook.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/Rain.o" "/Users/alex/Flick Background/Classes/Rain.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568518.666415
+e312568519.600661
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/Rain.o
+x/Users/alex/Flick Background/Classes/Rain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Flick Background/Classes/Rain.m: In function '-[Raindrop condenseCloudWithRainDrop:toFile:]':
+o/Users/alex/Flick Background/Classes/Rain.m:36: warning: control reaches end of non-void function
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@51"Compile /Users/alex/Flick Background/Classes/Rain.m312568518#312568519#0(898"/Users/alex/Flick Background/Classes/Rain.m: In function '-[Raindrop condenseCloudWithRainDrop:toFile:]':/Users/alex/Flick Background/Classes/Rain.m:36: warning: control reaches end of non-void functionIn file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.2(22@40"Control reaches end of non-void function312568519#106#98#0(6@43"/Users/alex/Flick Background/Classes/Rain.m311775004#36#0#36#0#40"control reaches end of non-void function0(4@25"'stdarg.h' file not found312568519#736#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568519#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568519#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#43"/Users/alex/Flick Background/Classes/Rain.m4644567520#1632"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/Classes/Rain.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Rain.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/UpdateUI.o" "/Users/alex/Flick Background/Classes/UpdateUI.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568519.601014
+e312568520.590796
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/UpdateUI.o
+x/Users/alex/Flick Background/Classes/UpdateUI.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@55"Compile /Users/alex/Flick Background/Classes/UpdateUI.m312568519#312568520#0(694"In file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.1(4@25"'stdarg.h' file not found312568520#532#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568520#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568520#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#47"/Users/alex/Flick Background/Classes/UpdateUI.m4309425200#1640"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/Classes/UpdateUI.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/UpdateUI.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/checkInternetConnection.o" "/Users/alex/Flick Background/checkInternetConnection.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568520.591107
+e312568521.568735
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/checkInternetConnection.o
+x/Users/alex/Flick Background/checkInternetConnection.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Flick Background/checkInternetConnection.m: In function '-[Flick_BackgroundAppDelegate(checkInternetConnection) checkInternetConnection:]':
+o/Users/alex/Flick Background/checkInternetConnection.m:17: warning: 'SCNetworkCheckReachabilityByName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h:178)
+o/Users/alex/Flick Background/checkInternetConnection.m:20: warning: 'return' with a value, in function returning void
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@62"Compile /Users/alex/Flick Background/checkInternetConnection.m312568520#312568521#0(1206"/Users/alex/Flick Background/checkInternetConnection.m: In function '-[Flick_BackgroundAppDelegate(checkInternetConnection) checkInternetConnection:]':/Users/alex/Flick Background/checkInternetConnection.m:17: warning: 'SCNetworkCheckReachabilityByName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h:178)/Users/alex/Flick Background/checkInternetConnection.m:20: warning: 'return' with a value, in function returning voidIn file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.3(22@173"'SCNetworkCheckReachabilityByName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h:178)312568521#152#242#0(6@54"/Users/alex/Flick Background/checkInternetConnection.m312567299#17#0#17#0#33"'*' is deprecated (declared at *)0(22@49"'return' with a value, in function returning void312568521#394#118#0(6@54"/Users/alex/Flick Background/checkInternetConnection.m312567299#20#0#20#0#0"0(4@25"'stdarg.h' file not found312568521#1044#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568521#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568521#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#54"/Users/alex/Flick Background/checkInternetConnection.m4369391664#1662"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/checkInternetConnection.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/checkInternetConnection.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/initalizeMenuItem.o" "/Users/alex/Flick Background/initalizeMenuItem.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568520.609650
+e312568521.562612
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/initalizeMenuItem.o
+x/Users/alex/Flick Background/initalizeMenuItem.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@56"Compile /Users/alex/Flick Background/initalizeMenuItem.m312568520#312568521#0(694"In file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.1(4@25"'stdarg.h' file not found312568521#532#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568521#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568521#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#48"/Users/alex/Flick Background/initalizeMenuItem.m4644354288#1650"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/initalizeMenuItem.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/initalizeMenuItem.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/main.o" "/Users/alex/Flick Background/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568517.134533
+e312568518.547965
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/main.o
+x/Users/alex/Flick Background/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@43"Compile /Users/alex/Flick Background/main.m312568517#312568518#0(694"In file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.1(4@25"'stdarg.h' file not found312568518#532#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568518#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568518#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#35"/Users/alex/Flick Background/main.m4640153920#1624"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/main.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC "Static analysis/build/Flick Background.build/Objects-normal/x86_64/processIsRunning.o" "/Users/alex/Flick Background/processIsRunning.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312568519.677960
+e312568520.609317
+r1
+xCompileC
+xStatic analysis/build/Flick Background.build/Objects-normal/x86_64/processIsRunning.o
+x/Users/alex/Flick Background/processIsRunning.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from <built-in>:118:
+oIn file included from <command line>:2:
+oIn file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found
+o#include_next <stdarg.h>
+o              ^
+o1 diagnostic generated.
+lSLF07#2@55"Compile /Users/alex/Flick Background/processIsRunning.m312568519#312568520#0(694"In file included from <built-in>:118:In file included from <command line>:2:In file included from /Users/alex/Flick Background/Flick_Background_Prefix.pch:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12:/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h:4:15: fatal error: 'stdarg.h' file not found#include_next <stdarg.h>              ^1 diagnostic generated.1(4@25"'stdarg.h' file not found312568520#532#97#2(7@128"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h312568520#18446744073709551615#0#0(6@106"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h301870289#12#0#12#0#0"0(13@80"'stdarg.h' file not found in /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h312568520#18446744073709551615#0#0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(6@51"/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdarg.h276157441#4#0#4#0#0"0(0#0#47"/Users/alex/Flick Background/processIsRunning.m4639966704#1648"    cd "/Users/alex/Flick Background"    setenv LANG en_US.US-ASCII    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-generated-files.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-own-target-headers.hmap" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-all-target-headers.hmap" -iquote "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Flick Background-project-headers.hmap" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" "-I/Users/alex/Flick Background/Static analysis/build/include" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources/x86_64" "-I/Users/alex/Flick Background/Static analysis/build/Flick Background.build/DerivedSources" -include "/Users/alex/Flick Background/Flick_Background_Prefix.pch" -c "/Users/alex/Flick Background/processIsRunning.m" -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/processIsRunning.o"0#
+
+CCompileXIB "/Users/alex/Flick Background/English.lproj/MainMenu.xib"
+s312568516.169035
+e312568517.134440
+r1
+xCompileXIB
+x/Users/alex/Flick Background/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib312568516#312568517#0(0"0(0#0#55"/Users/alex/Flick Background/English.lproj/MainMenu.xib4305578192#359"    cd "/Users/alex/Flick Background"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/alex/Flick Background/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s312568516.168234
+e312568516.448926
+r1
+xCopyStringsFile
+x/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+o/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings:125: warning: Insecure world writable dir /Users/alex/Applications/AnalysisTool.app/Contents/Resources in PATH, mode 040777
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings312568516#312568516#0(213"/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings:125: warning: Insecure world writable dir /Users/alex/Applications/AnalysisTool.app/Contents/Resources in PATH, mode 0407770(0#0#60"/Users/alex/Flick Background/English.lproj/InfoPlist.strings4309443872#368"    cd "/Users/alex/Flick Background"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources/English.lproj"0#
+
+CCpResource "Static analysis/build/Flick Background.app/Contents/Resources/app-icon.icns" Resources/app-icon.icns
+s312568516.449156
+e312568516.470066
+r1
+xCpResource
+xStatic analysis/build/Flick Background.app/Contents/Resources/app-icon.icns
+xResources/app-icon.icns
+lSLF07#2@28"Copy Resources/app-icon.icns312568516#312568516#0(0"0(0#0#52"/Users/alex/Flick Background/Resources/app-icon.icns4639335728#334"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/Resources/app-icon.icns" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources"0#
+
+CCpResource "Static analysis/build/Flick Background.app/Contents/Resources/black-background.jpg" Resources/black-background.jpg
+s312568516.450075
+e312568516.470176
+r1
+xCpResource
+xStatic analysis/build/Flick Background.app/Contents/Resources/black-background.jpg
+xResources/black-background.jpg
+lSLF07#2@35"Copy Resources/black-background.jpg312568516#312568516#0(0"0(0#0#59"/Users/alex/Flick Background/Resources/black-background.jpg4644612416#341"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/Resources/black-background.jpg" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources"0#
+
+CCpResource "Static analysis/build/Flick Background.app/Contents/Resources/dsa_pub.pem" Resources/dsa_pub.pem
+s312568516.450706
+e312568516.470270
+r1
+xCpResource
+xStatic analysis/build/Flick Background.app/Contents/Resources/dsa_pub.pem
+xResources/dsa_pub.pem
+lSLF07#2@26"Copy Resources/dsa_pub.pem312568516#312568516#0(0"0(0#0#50"/Users/alex/Flick Background/Resources/dsa_pub.pem4644468672#332"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/Resources/dsa_pub.pem" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources"0#
+
+CCpResource "Static analysis/build/Flick Background.app/Contents/Resources/flickbackgroundagent.app" flickbackgroundagent.app
+s312568516.452992
+e312568516.509412
+r1
+xCpResource
+xStatic analysis/build/Flick Background.app/Contents/Resources/flickbackgroundagent.app
+xflickbackgroundagent.app
+lSLF07#2@29"Copy flickbackgroundagent.app312568516#312568516#0(0"0(0#0#53"/Users/alex/Flick Background/flickbackgroundagent.app4644530032#335"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/flickbackgroundagent.app" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources"0#
+
+CCpResource "Static analysis/build/Flick Background.app/Contents/Resources/icon-alt.png" Resources/icon-alt.png
+s312568516.451308
+e312568516.472296
+r1
+xCpResource
+xStatic analysis/build/Flick Background.app/Contents/Resources/icon-alt.png
+xResources/icon-alt.png
+lSLF07#2@27"Copy Resources/icon-alt.png312568516#312568516#0(0"0(0#0#51"/Users/alex/Flick Background/Resources/icon-alt.png4639436624#333"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/Resources/icon-alt.png" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources"0#
+
+CCpResource "Static analysis/build/Flick Background.app/Contents/Resources/icon.png" Resources/icon.png
+s312568516.451844
+e312568516.472407
+r1
+xCpResource
+xStatic analysis/build/Flick Background.app/Contents/Resources/icon.png
+xResources/icon.png
+lSLF07#2@23"Copy Resources/icon.png312568516#312568516#0(0"0(0#0#47"/Users/alex/Flick Background/Resources/icon.png4639446880#329"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/Resources/icon.png" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources"0#
+
+CCpResource "Static analysis/build/Flick Background.app/Contents/Resources/no-internet.png" Resources/no-internet.png
+s312568516.452374
+e312568516.472509
+r1
+xCpResource
+xStatic analysis/build/Flick Background.app/Contents/Resources/no-internet.png
+xResources/no-internet.png
+lSLF07#2@30"Copy Resources/no-internet.png312568516#312568516#0(0"0(0#0#54"/Users/alex/Flick Background/Resources/no-internet.png4644501984#336"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/Resources/no-internet.png" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Resources"0#
+
+CLd "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/MacOS/Flick Background" normal x86_64
+s312568521.568868
+e312568521.921211
+r1
+xLd
+x/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/MacOS/Flick Background
+xnormal
+xx86_64
+old: warning: directory '/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection' following -F not found
+old: warning: directory '/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release' following -F not found
+lSLF07#2@108"Link /Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/MacOS/Flick Background312568521#312568521#0(260"ld: warning: directory '/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection' following -F not foundld: warning: directory '/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release' following -F not found2(22@113"Directory '/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection' following -F not found312568521#0#127#0(6@0"312568521#0#0#0#0#0"0(22@119"Directory '/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release' following -F not found312568521#127#133#0(6@0"312568521#0#0#0#0#0"0(0#0#0"4640528928#904"    cd "/Users/alex/Flick Background"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Users/alex/Applications/AnalysisTool.app/Contents/Resources/llvm/utils/ccc-analyzer -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/Static analysis/build" "-F/Users/alex/Flick Background/../../Downloads/Sparkle 1/With Garbage Collection" "-F/Users/alex/Flick Background" "-F/Users/alex/Flick Background/../Downloads/itaiferber-IFToolkit-e88c156/build/Release" -filelist "/Users/alex/Flick Background/Static analysis/build/Flick Background.build/Objects-normal/x86_64/Flick Background.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -framework Sparkle -framework SystemConfiguration -prebind -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/MacOS/Flick Background"0#
+
+CPBXCp "Static analysis/build/Flick Background.app/Contents/Frameworks/Sparkle.framework" Sparkle.framework
+s312568522.121582
+e312568522.249306
+r1
+xPBXCp
+xStatic analysis/build/Flick Background.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework312568522#312568522#0(0"0(0#0#46"/Users/alex/Flick Background/Sparkle.framework4644468400#329"    cd "/Users/alex/Flick Background"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Flick Background/Sparkle.framework" "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Info.plist" Flick_Background-Info.plist
+s312568516.164629
+e312568516.168053
+r1
+xProcessInfoPlistFile
+x/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Info.plist
+xFlick_Background-Info.plist
+lSLF07#2@35"Process Flick_Background-Info.plist312568516#312568516#0(0"0(0#0#56"/Users/alex/Flick Background/Flick_Background-Info.plist7811904093214173184#333"    cd "/Users/alex/Flick Background"    builtin-infoPlistUtility Flick_Background-Info.plist -genpkginfo "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/alex/Flick Background/Static analysis/build/Flick Background.app/Contents/Info.plist"0#
+
+CTouch "/Users/alex/Flick Background/Static analysis/build/Flick Background.app"
+s312568522.249443
+e312568522.253415
+r1
+xTouch
+x/Users/alex/Flick Background/Static analysis/build/Flick Background.app
+lSLF07#2@77"Touch /Users/alex/Flick Background/Static analysis/build/Flick Background.app312568522#312568522#0(0"0(0#0#0"4640721776#134"    cd "/Users/alex/Flick Background"    /usr/bin/touch -c "/Users/alex/Flick Background/Static analysis/build/Flick Background.app"0#
+

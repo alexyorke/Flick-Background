@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA3287D715A5F6E60014AEF1 /* NSImage-PropotionalScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3287D615A5F6E60014AEF1 /* NSImage-PropotionalScaling.m */; };
+		FA57EAF215A12D9E00757858 /* SZJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA57EAF115A12D9E00757858 /* SZJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA72B5E8129833E30057951E /* no-internet.png in Resources */ = {isa = PBXBuildFile; fileRef = FA72B5E7129833E30057951E /* no-internet.png */; };
+		FA948FD612A1681B00B2CB7C /* initalizeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA948FD512A1681B00B2CB7C /* initalizeMenuItem.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FAD6B7C1129749AB0049FA77 /* app-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FAD6B7BC129749AB0049FA77 /* app-icon.icns */; };
+		FAD6B7C2129749AB0049FA77 /* black-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD6B7BD129749AB0049FA77 /* black-background.jpg */; };
+		FAD6B7C3129749AB0049FA77 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FAD6B7BE129749AB0049FA77 /* dsa_pub.pem */; };
+		FAD6B7C4129749AB0049FA77 /* icon-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6B7BF129749AB0049FA77 /* icon-alt.png */; };
+		FAD6B7C5129749AB0049FA77 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6B7C0129749AB0049FA77 /* icon.png */; };
+		FAD6B7D4129749D00049FA77 /* DesktopDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD6B7CD129749D00049FA77 /* DesktopDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FAD6B7D5129749D00049FA77 /* Flick_BackgroundAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD6B7CF129749D00049FA77 /* Flick_BackgroundAppDelegate.m */; settings = {COMPILER_FLAGS = " "; }; };
+		FAD6B7D7129749D00049FA77 /* Rain.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD6B7D3129749D00049FA77 /* Rain.m */; settings = {COMPILER_FLAGS = "  -fno-objc-arc"; }; };
+		FAD6B7E712974A3D0049FA77 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD6B7E612974A3D0049FA77 /* WebKit.framework */; };
+		FADD440F1297608F006E5637 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADD440E1297608F006E5637 /* Sparkle.framework */; };
+		FADD441B129760B8006E5637 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FADD440E1297608F006E5637 /* Sparkle.framework */; };
+		FAE898A415A1C7D40055FC82 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE898A315A1C7D40055FC82 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FADD441F129760C6006E5637 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FADD441B129760B8006E5637 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Flick_Background_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flick_Background_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Flick_Background-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Flick_Background-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Flick Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flick Background.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3287D515A5F6E60014AEF1 /* NSImage-PropotionalScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage-PropotionalScaling.h"; sourceTree = "<group>"; };
+		FA3287D615A5F6E60014AEF1 /* NSImage-PropotionalScaling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage-PropotionalScaling.m"; sourceTree = "<group>"; };
+		FA57EAF015A12D9E00757858 /* SZJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZJsonParser.h; sourceTree = "<group>"; };
+		FA57EAF115A12D9E00757858 /* SZJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZJsonParser.m; sourceTree = "<group>"; };
+		FA72B5E7129833E30057951E /* no-internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "no-internet.png"; path = "Resources/no-internet.png"; sourceTree = "<group>"; };
+		FA948FD412A1681B00B2CB7C /* initalizeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = initalizeMenuItem.h; sourceTree = "<group>"; };
+		FA948FD512A1681B00B2CB7C /* initalizeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = initalizeMenuItem.m; sourceTree = "<group>"; };
+		FAA508C215A1EDB0009E15A1 /* Flick Background.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Flick Background.entitlements"; sourceTree = "<group>"; };
+		FAD6B7BC129749AB0049FA77 /* app-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "app-icon.icns"; path = "Resources/app-icon.icns"; sourceTree = "<group>"; };
+		FAD6B7BD129749AB0049FA77 /* black-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "black-background.jpg"; path = "Resources/black-background.jpg"; sourceTree = "<group>"; };
+		FAD6B7BE129749AB0049FA77 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
+		FAD6B7BF129749AB0049FA77 /* icon-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-alt.png"; path = "Resources/icon-alt.png"; sourceTree = "<group>"; };
+		FAD6B7C0129749AB0049FA77 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = "<group>"; };
+		FAD6B7CC129749D00049FA77 /* DesktopDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DesktopDelegate.h; path = Classes/DesktopDelegate.h; sourceTree = "<group>"; };
+		FAD6B7CD129749D00049FA77 /* DesktopDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DesktopDelegate.m; path = Classes/DesktopDelegate.m; sourceTree = "<group>"; };
+		FAD6B7CE129749D00049FA77 /* Flick_BackgroundAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flick_BackgroundAppDelegate.h; path = Classes/Flick_BackgroundAppDelegate.h; sourceTree = "<group>"; };
+		FAD6B7CF129749D00049FA77 /* Flick_BackgroundAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Flick_BackgroundAppDelegate.m; path = Classes/Flick_BackgroundAppDelegate.m; sourceTree = "<group>"; };
+		FAD6B7D2129749D00049FA77 /* Rain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rain.h; path = Classes/Rain.h; sourceTree = "<group>"; };
+		FAD6B7D3129749D00049FA77 /* Rain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rain.m; path = Classes/Rain.m; sourceTree = "<group>"; };
+		FAD6B7E612974A3D0049FA77 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FADD440E1297608F006E5637 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		FAE8989F15A1C5330055FC82 /* SCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCNetwork.h; path = ../../../../System/Library/Frameworks/SystemConfiguration.framework/Versions/A/Headers/SCNetwork.h; sourceTree = "<group>"; };
+		FAE898A015A1C5330055FC82 /* SCNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCNetworkReachability.h; path = ../../../../System/Library/Frameworks/SystemConfiguration.framework/Versions/A/Headers/SCNetworkReachability.h; sourceTree = "<group>"; };
+		FAE898A315A1C7D40055FC82 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				FAD6B7E712974A3D0049FA77 /* WebKit.framework in Frameworks */,
+				FADD440F1297608F006E5637 /* Sparkle.framework in Frameworks */,
+				FAE898A415A1C7D40055FC82 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA3287D515A5F6E60014AEF1 /* NSImage-PropotionalScaling.h */,
+				FA3287D615A5F6E60014AEF1 /* NSImage-PropotionalScaling.m */,
+				FA57EAF015A12D9E00757858 /* SZJsonParser.h */,
+				FA57EAF115A12D9E00757858 /* SZJsonParser.m */,
+				FA948FD412A1681B00B2CB7C /* initalizeMenuItem.h */,
+				FA948FD512A1681B00B2CB7C /* initalizeMenuItem.m */,
+				FAD6B7CC129749D00049FA77 /* DesktopDelegate.h */,
+				FAD6B7CD129749D00049FA77 /* DesktopDelegate.m */,
+				FAD6B7CE129749D00049FA77 /* Flick_BackgroundAppDelegate.h */,
+				FAD6B7CF129749D00049FA77 /* Flick_BackgroundAppDelegate.m */,
+				FAD6B7D2129749D00049FA77 /* Rain.h */,
+				FAD6B7D3129749D00049FA77 /* Rain.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FADD440E1297608F006E5637 /* Sparkle.framework */,
+				FAD6B7E612974A3D0049FA77 /* WebKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE898A315A1C7D40055FC82 /* SystemConfiguration.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Flick Background.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Flick Background */ = {
+			isa = PBXGroup;
+			children = (
+				FAA508C215A1EDB0009E15A1 /* Flick Background.entitlements */,
+				FAE8989F15A1C5330055FC82 /* SCNetwork.h */,
+				FAE898A015A1C5330055FC82 /* SCNetworkReachability.h */,
+				FA72B5E7129833E30057951E /* no-internet.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Flick Background";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Flick_Background_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6B7BC129749AB0049FA77 /* app-icon.icns */,
+				FAD6B7BD129749AB0049FA77 /* black-background.jpg */,
+				FAD6B7BE129749AB0049FA77 /* dsa_pub.pem */,
+				FAD6B7BF129749AB0049FA77 /* icon-alt.png */,
+				FAD6B7C0129749AB0049FA77 /* icon.png */,
+				8D1107310486CEB800E47090 /* Flick_Background-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Flick Background */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Flick Background" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				FADD441F129760C6006E5637 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flick Background";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Flick Background";
+			productReference = 8D1107320486CEB800E47090 /* Flick Background.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Flick Background" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Flick Background */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Flick Background */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FAD6B7C1129749AB0049FA77 /* app-icon.icns in Resources */,
+				FAD6B7C2129749AB0049FA77 /* black-background.jpg in Resources */,
+				FAD6B7C3129749AB0049FA77 /* dsa_pub.pem in Resources */,
+				FAD6B7C4129749AB0049FA77 /* icon-alt.png in Resources */,
+				FAD6B7C5129749AB0049FA77 /* icon.png in Resources */,
+				FA72B5E8129833E30057951E /* no-internet.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				FAD6B7D4129749D00049FA77 /* DesktopDelegate.m in Sources */,
+				FAD6B7D5129749D00049FA77 /* Flick_BackgroundAppDelegate.m in Sources */,
+				FAD6B7D7129749D00049FA77 /* Rain.m in Sources */,
+				FA948FD612A1681B00B2CB7C /* initalizeMenuItem.m in Sources */,
+				FA57EAF215A12D9E00757858 /* SZJsonParser.m in Sources */,
+				FA3287D715A5F6E60014AEF1 /* NSImage-PropotionalScaling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_ENTITLEMENTS = "Flick Background.entitlements";
+				COMBINE_HIDPI_IMAGES = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/Sparkle 1/With Garbage Collection\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../Downloads/itaiferber-IFToolkit-e88c156/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Flick_Background_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = "Flick_Background-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Flick Background";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_ENTITLEMENTS = "Flick Background.entitlements";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/Sparkle 1/With Garbage Collection\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../Downloads/itaiferber-IFToolkit-e88c156/build/Release\"",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Flick_Background_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = "Flick_Background-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Flick Background";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Flick Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Flick Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
